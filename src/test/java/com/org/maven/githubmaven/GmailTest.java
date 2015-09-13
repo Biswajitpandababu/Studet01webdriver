@@ -13,6 +13,7 @@ public void setup()
 {
 driver = new FirefoxDriver();
 driver.get("http://www.gmail.com");
+System.out.println("test");
 }
 
 @Test
